@@ -4,9 +4,9 @@ A package that generates the necessary token to use the [**Google Translate API 
 
 ## Why
 
-[translate.google.com](https://translate.google.com) uses a token to authorize the requests. If you are not Google, you do not have this token and will have to [pay $20 per 1 million characters of text](https://cloud.google.com/translate/v2/pricing).
+[translate.google.cn](https://translate.google.cn) uses a token to authorize the requests. If you are not Google, you do not have this token and will have to [pay $20 per 1 million characters of text](https://cloud.google.cn/translate/v2/pricing).
 
-This package is the [result](https://github.com/matheuss/google-translate-token/blob/master/index.js#L12-110) of reverse engineering on the [obfuscated and minified code](https://translate.google.com/translate/releases/twsfe_w_20160620_RC00/r/js/desktop_module_main.js) used by Google to generate such token.
+This package is the [result](https://github.com/matheuss/google-translate-token/blob/master/index.js#L12-110) of reverse engineering on the [obfuscated and minified code](https://translate.google.cn/translate/releases/twsfe_w_20160620_RC00/r/js/desktop_module_main.js) used by Google to generate such token.
 
 ## How it works
 
